@@ -1,0 +1,17 @@
+project:
+  name: deepfake_detector
+  seed: 42
+
+data:
+  batch_size: 8
+  num_workers: 4
+  image_size: 224
+
+training:
+  epochs: 2
+  learning_rate: 0.001
+  device: "cuda"
+
+logging:
+  level: "INFO"
+  save_dir: "logs/"

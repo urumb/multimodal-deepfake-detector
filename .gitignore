@@ -9,3 +9,8 @@ logs/
 data/raw/
 
 .env
+
+venv/
+
+*.pyc
+experiments/
